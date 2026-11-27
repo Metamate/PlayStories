@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f736ad5977b93745b63e4f96cb2dbf7, type: 3}
+  m_Name: Skin
+  m_EditorClassIdentifier: Assembly-CSharp::PlayStories.UISkin
+  font: {fileID: 12800000, guid: f55b25beb4fe4f2448212490015367ba, type: 3}
+  fontAsset: {fileID: 11400000, guid: 14ad0f0b5dc926d439d3e2d95119e8e8, type: 2}
+  textOutlined: {fileID: 2100000, guid: b5209de6bc321b1438dd6a4c69b8da50, type: 2}
+  textOutlinedThin: {fileID: 2100000, guid: 4c2bc18e8ec8e5d4da9ba4341280d464, type: 2}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineColor: {r: 0.1, g: 0.08, b: 0.08, a: 1}
+  darkTextColor: {r: 0.24, g: 0.37, b: 0.2, a: 1}
+  arrowLeft: {fileID: 21300000, guid: 170500c61863ef2479043a8fdcb85e32, type: 3}
+  arrowRight: {fileID: 21300000, guid: aa0eab8a5a226944d8c5868708bf9a4c, type: 3}
+  back: {fileID: 21300000, guid: c088009b622edb44b99c0465a2533fa1, type: 3}
+  close: {fileID: 21300000, guid: 24447a229455cd6488664d649ef671bb, type: 3}
+  speaker: {fileID: 21300000, guid: edd1d6b5dddeff949b894ce355e65592, type: 3}
+  gear: {fileID: 21300000, guid: 6ae59ad4ffd24b743afc9ae2a622b9be, type: 3}
+  play: {fileID: 21300000, guid: 7e6d5c948303bd049aee9fa7c4592549, type: 3}
+  replay: {fileID: 21300000, guid: 4512ddc158b41384e8a12346ade6172d, type: 3}
+  filter: {fileID: 21300000, guid: 0701aa806e67c6a4f92859be54cd4ee6, type: 3}
+  lockIcon: {fileID: 21300000, guid: eb15392712c5dd244962814161f09b21, type: 3}
+  panel: {fileID: 21300000, guid: 0635583e1d52e6949b0e778173749703, type: 3}
+  panelPlain: {fileID: 21300000, guid: c59362151d95ed748ba88dec427ea8a4, type: 3}
+  ring: {fileID: 21300000, guid: 8715e3c8dfd6e9348857aeb1bb562074, type: 3}
+  circle: {fileID: 21300000, guid: f4628f041ebd9f54690f4d7966245d5d, type: 3}
+  bubble: {fileID: 21300000, guid: 051283c5ea73fee4fa426256ed340431, type: 3}
+  shadow: {fileID: 21300000, guid: 90e67b196f6ef2840ab82aa8c635c20b, type: 3}
+  heart: {fileID: 21300000, guid: 719af3b19a31acc4dafe008fafa995d8, type: 3}
+  star: {fileID: 21300000, guid: a2ea00b223e56934ab71739108fb37cf, type: 3}
+  sparkle: {fileID: 21300000, guid: 071371bd497cfe84e905decf54a5b695, type: 3}
+  note: {fileID: 21300000, guid: 4371d569489dbf14aa23092fc702f8e3, type: 3}
+  cloud: {fileID: 21300000, guid: b3f17b2a0296dbe46bb8771da8c6fc7d, type: 3}
+  butterfly: {fileID: 21300000, guid: 93aa742f85bdd7141b6dd85de5fc9057, type: 3}
+  welcomeBackground: {fileID: 21300000, guid: 6181f21386f5dfa4d98d113a129360c2, type: 3}
+  welcomeCover: {fileID: 21300000, guid: 7206f2a4b8254aa43822283e0cccb112, type: 3}
+  welcomeCharacters:
+  - {fileID: 11400000, guid: 2a1aec4cdd144624eb6050e5b394d761, type: 2}
+  - {fileID: 11400000, guid: 6fd59a0f8c50bac45965cbc4a17412ba, type: 2}
+  welcomeAmbience: {fileID: 8300000, guid: 50afc4668e556b1419851bcb13b93fcd, type: 3}
+  sfxPop: {fileID: 8300000, guid: a2cbeccea7fc18b4385c43edab314dfb, type: 3}
+  sfxTap: {fileID: 8300000, guid: 4af6ae4698ed11f4d88eff262b7bbe58, type: 3}
+  sfxPageTurn: {fileID: 8300000, guid: cc8e51a1a07be5247ba773c7b8e5f089, type: 3}
+  sfxSparkle: {fileID: 8300000, guid: 6870ef9be88da024d9afe6b3a14409c5, type: 3}
+  sfxOpen: {fileID: 8300000, guid: 2e99ebf653b133144855ac56d847978f, type: 3}
+  sfxBoing: {fileID: 8300000, guid: dfbcf63772f8a99468a88682594759a7, type: 3}
+  sfxTick: {fileID: 8300000, guid: c08347e2402f7a74bb535568f2a4212e, type: 3}
+  sfxWhoosh: {fileID: 8300000, guid: ebe5f3fd03d655b4393d4ebfe896c71f, type: 3}
+  parentalHoldSeconds: 5
+  bookBackHoldSeconds: 1
+  appTitle:
+    entries:
+    - language: 0
+      text: PlayStories
+    - language: 1
+      text: PlayStories
+  tapToStart:
+    entries:
+    - language: 0
+      text: Tryk for at starte
+    - language: 1
+      text: Tap to start
+  libraryTitle:
+    entries:
+    - language: 0
+      text: Bibliotek
+    - language: 1
+      text: Library
+  filterAll:
+    entries:
+    - language: 0
+      text: Alle
+    - language: 1
+      text: All
+  ageFormat:
+    entries:
+    - language: 0
+      text: "{0}\u2013{1} \xE5r"
+    - language: 1
+      text: "{0}\u2013{1} yrs"
+  comingSoon:
+    entries:
+    - language: 0
+      text: Kommer snart
+    - language: 1
+      text: Coming soon
+  holdHint:
+    entries:
+    - language: 0
+      text: Hold inde
+    - language: 1
+      text: Hold
+  settingsTitle:
+    entries:
+    - language: 0
+      text: Indstillinger
+    - language: 1
+      text: Settings
+  theEnd:
+    entries:
+    - language: 0
+      text: Hurra!
+    - language: 1
+      text: Hooray!
+  settingAutoNarrate:
+    entries:
+    - language: 0
+      text: "L\xE6s ordene h\xF8jt automatisk"
+    - language: 1
+      text: Read words aloud automatically
+  settingAmbience:
+    entries:
+    - language: 0
+      text: Baggrundslyde (fuglesang)
+    - language: 1
+      text: Background sounds (birdsong)
+  settingSfx:
+    entries:
+    - language: 0
+      text: Lydeffekter
+    - language: 1
+      text: Sound effects
+  settingHints:
+    entries:
+    - language: 0
+      text: "Hj\xE6lp, n\xE5r barnet venter"
+    - language: 1
+      text: Hints when the child waits
+  settingVolume:
+    entries:
+    - language: 0
+      text: Lydstyrke
+    - language: 1
+      text: Volume
+  settingLanguage:
+    entries:
+    - language: 0
+      text: Sprog
+    - language: 1
+      text: Language
+  settingKidLock:
+    entries:
+    - language: 0
+      text: "B\xF8rnel\xE5s (l\xE5s appen)"
+    - language: 1
+      text: Child lock (lock the app)
+  kidLockHintIOS:
+    entries:
+    - language: 0
+      text: "P\xE5 iPad/iPhone: sl\xE5 Guidet adgang til under Indstillinger \u25B8 Tilg\xE6ngelighed, og tryk tre gange p\xE5 sideknappen i appen."
+    - language: 1
+      text: "On iPad/iPhone: turn on Guided Access in Settings \u25B8 Accessibility, then triple-click the side button in the app."
+  kidLockHintAndroid:
+    entries:
+    - language: 0
+      text: "Appen fastg\xF8res til sk\xE6rmen. Luk den her under indstillinger."
+    - language: 1
+      text: The app is pinned to the screen. Close it from here in settings.
+  closeApp:
+    entries:
+    - language: 0
+      text: Luk appen
+    - language: 1
+      text: Close the app

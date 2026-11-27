@@ -138,3 +138,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
 /RawAssets/
+# ElevenLabs API key for Tools/generate_narration.py (never commit)
+Tools/.elevenlabs_key

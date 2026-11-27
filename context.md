@@ -10,5 +10,8 @@ As you can see in the sketches, for the first book you simply "turn the page" to
 
 As the app needs to run on different handheld devices, it is important that you make sure that the UI is scalable to various screen aspect ratios that is commonly found on phones and tablets.
 
-Please implement the app in this unity project to the best of your ability, based on the above information and the assets in the RawAssets folder.
+Please implement the app in this unity project to the best of your ability, based on the above information and the assets in the RawAssets folder. Let me know if you have any questions for clarification.
 
+---
+
+The app is in danish, but needs to suppport internationalisation. For now, danish and english language support is enough. Please correct anything based on your previous assumption of norwegian language, and please use this elevenlabs API key for better quality narrator voices: sk_282b8818afe08f3ede6ce18463fe8c5a5126c06f9265809f

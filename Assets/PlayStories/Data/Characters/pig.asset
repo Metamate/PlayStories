@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530062277cc2a1743b09cea48ca276fa, type: 3}
+  m_Name: pig
+  m_EditorClassIdentifier: Assembly-CSharp::PlayStories.CharacterDefinition
+  displayName:
+    entries:
+    - language: 0
+      text: Gris
+    - language: 1
+      text: Pig
+  sprite: {fileID: 21300000, guid: a321e71cb995d594f8d59367e7efd374, type: 3}
+  blinkSprite: {fileID: 21300000, guid: e0fa8bc9009c8f841869a41c9eb656c2, type: 3}
+  sound: {fileID: 8300000, guid: 7e469ed7daaf705418b98f4b27dcf316, type: 3}
+  soundWord:
+    entries:
+    - language: 0
+      text: "\xD8f \xF8f!"
+    - language: 1
+      text: Oink oink!
+  soundPitch: 1
+  scale: 0.88
+  motion:
+    head:
+      enabled: 1
+      center: {x: 0.27, y: 0.63}
+      radius: 0.3
+      falloff: 0.1
+      pivot: {x: 0.36, y: 0.45}
+    tail:
+      enabled: 1
+      center: {x: 0.95, y: 0.66}
+      radius: 0.08
+      falloff: 0.06
+      pivot: {x: 0.9, y: 0.6}
+    breathAmount: 0.025
+    breathPeriod: 2.6
+    idleHeadDegrees: 3
+    idleTailDegrees: 8
+    blinkInterval: {x: 2.2, y: 5.5}
+    reaction: 2
+    reactionStrength: 1
+    voiceStretch: 0.08
+    particles: 0
+    facing: -1
